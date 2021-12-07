@@ -1,0 +1,31 @@
+1. __init__() function:
+.....................................................................................................................
+To start building our Blockchain, we create a Blockchain class. The __init__ method will consist of  a variable called chain to store a list of all the blocks in the Blockchain.
+
+2. create_blockchain() function:
+......................................................................................................................
+The create_blockchain()method allow us to create our Genesis block on instantiation of the class. This create_blockchain() method will take default arguments which are proof_of_work with a value of 1, and the previous_hash with a value of 0.
+
+Note: In a Blockchain, there is always a first block caled genesis block, and this block doesn't have any previous_hash.
+
+Within the create_blockchain() functio , we include a block variable type of dictionary that will be used to define each block in a blockchain.
+
+
+The dictionary will take the following key_value pairs:
+......................................................................................................................
+---> index_position:An index key will store the Blockchain's lenth. It is represented by the chain variable in the __init__ method with an added value of 1. We are going to use this variable to access each block in the Blockchain.
+
+--->Timestamp:The timestamp key will take a value of the current date anad Time the block was created or mined.
+
+---> proof_of_work:This key receive a proof_of_work value that will be passed to the function when ot is called.
+
+---> previous_hash: Lastly, the previous_hash key takes a value of previous_hash from the function which is equivalent to the hash of the previous block.
+
+3. get_previous_block: 
+......................................................................................................................
+From accessin previous block we are using this method.We create a new variable and name it as last_block and pass in the value of the last block in the list.0000
+
+4. proof_of_work:
+......................................................................................................................
+This function is used to get proof_of_work and use to successfully mine the block
+

@@ -1,0 +1,104 @@
+Installing Flask:
+
+The Flask web framework is built on the Python Programming language, thus, it will require that we install Python.
+
+How to check:
+
+In command prompt type
+
+python --version 
+
+If version is not getting try to install it.
+
+Link for installing Python:
+
+https://www.python.org/downloads/
+
+Installing a Virtual Environment:
+
+To install your own virtual environment, you need pip installed in your system.
+
+How to check:
+
+In command prompt type
+
+pip help
+
+If help documentation is not coming try to install pip.
+
+Link for installing pip:
+
+https://phoenixnap.com/kb/install-pip-windows
+
+Installing Flask:
+
+Now that you have installed Python, pip, and a Virtual environment to be installed on your system. We can proceed to the insatallation of Flask itself.
+
+This is a step-by-step process on how to install Flask:
+
+The first step is to create the Flask_Environment for our Blockchain Project.
+
+type 
+mkdir Flask_Environment 
+
+Next, change directory to the Flask_Environment directory created in the previous step:
+
+type
+cd Flask_Environment/
+
+Next, Create a Virtual environment and store its tools in the Blockchain_Environment Folder:
+
+type
+python -m venv Blockchain_Environment
+
+By Following the steps above, we have our own Virtual Environment ready for our Blockchain Project, next we need to activate it.
+
+Running a Virtual Environment:
+
+To activate your virtual environment, from the directory of your folder, type the following command this will activate our virtual environment in the Blockchain_Environment folder:
+
+type
+Blockchain_Environment\Scripts\activate
+
+If this activation is not working then run the command in windows powershell as an Administrator:
+
+type
+powershell Set-ExecutionPolicy RemoteSigned
+
+Now we entered into Blockchain_Environment
+
+Installing Flask:
+
+In this step, you will be installing the Flask web framework in our virtual environment specifically for the project being worked on.
+
+type
+pip install flask
+
+Launching the workspace:
+
+type
+code .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
